@@ -26,3 +26,56 @@ body {
     box-shadow: 0 5px 0 #d1483e;
     margin-top: 35px;
 }
+
+#btn.patioglass {
+    background: url("../img/patioglass.png");
+    background-size: cover;
+    color: greenyellow;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+#snsbtn {
+    margin-top: 35px;
+    text-align: center;
+}
+
+#twibtn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #dd4f3c;
+    color: #fff;
+    border-bottom: solid 4px #7e2d22;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#twibtn:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+footer {
+    margin-top: 35px;
+    text-align: center;
+}
+
+p#copyright {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
