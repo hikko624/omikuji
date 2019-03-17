@@ -86,13 +86,13 @@
         }
     });
 
-    btn.addEventListener("mousedown", () => {
-        btn.classList.add("pressed");
-    });
+    // btn.addEventListener("mousedown", () => {
+    //     btn.classList.add("pressed");
+    // });
 
-    btn.addEventListener("mouseup", () => {
-        btn.classList.remove("pressed");
-    });
+    // btn.addEventListener("mouseup", () => {
+    //     btn.classList.remove("pressed");
+    // });
 
     const twibtn = document.getElementById("twibtn");
 

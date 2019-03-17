@@ -5,16 +5,16 @@ body {
 #btn {
     width: 200px;
     height: 200px;
-    background: #ef454a;
+    background: #668ad8;
     border-radius: 50%;
     margin: 30px auto 0;
     text-align: center;
     line-height: 200px;
-    color: #fff;
+    color: #fedfe1;
     font-size: 42px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 10px 0 #d1483e;
+    box-shadow: 0 10px 0 #627295;
     user-select: none;
 }
 
@@ -22,8 +22,13 @@ body {
     opacity: 0.9;
 }
 
-#btn.pressed {
-    box-shadow: 0 5px 0 #d1483e;
+/* #btn.pressed {
+    box-shadow: 0 5px 0 #627295;
+    margin-top: 35px;
+} */
+
+#btn:active {
+    box-shadow: 0 5px 0 #627295;
     margin-top: 35px;
 }
 
@@ -55,9 +60,9 @@ h1 {
     display: inline-block;
     padding: 0.5em 1em;
     text-decoration: none;
-    background: #dd4f3c;
+    background: #668ad8;
     color: #fff;
-    border-bottom: solid 4px #7e2d22;
+    border-bottom: solid 4px #627295;
     border-radius: 3px;
     font-size: 14px;
 }
